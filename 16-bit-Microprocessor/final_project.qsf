@@ -1,0 +1,138 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 16:38:39  November 27, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		final_project_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE Auto
+set_global_assignment -name TOP_LEVEL_ENTITY CPU
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:38:39  NOVEMBER 27, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name BDF_FILE ZERO.bdf
+set_global_assignment -name BDF_FILE WE.bdf
+set_global_assignment -name BDF_FILE WB.bdf
+set_global_assignment -name BDF_FILE unit.bdf
+set_global_assignment -name BDF_FILE Shif.bdf
+set_global_assignment -name BDF_FILE mux41_3bit.bdf
+set_global_assignment -name BDF_FILE mux21_3bit.bdf
+set_global_assignment -name BDF_FILE mux21_1bit.bdf
+set_global_assignment -name BDF_FILE mux21_10bit.bdf
+set_global_assignment -name BDF_FILE mux21.bdf
+set_global_assignment -name BDF_FILE Multiplier.bdf
+set_global_assignment -name BDF_FILE In_Out.bdf
+set_global_assignment -name BDF_FILE Function.bdf
+set_global_assignment -name BDF_FILE FA.bdf
+set_global_assignment -name BDF_FILE division.bdf
+set_global_assignment -name BDF_FILE CPU.bdf
+set_global_assignment -name BDF_FILE ALUOp.bdf
+set_global_assignment -name BDF_FILE Address_def.bdf
+set_global_assignment -name BDF_FILE SHIFTER.bdf
+set_global_assignment -name BDF_FILE mux8to1.bdf
+set_global_assignment -name BDF_FILE decoder_5to32.bdf
+set_global_assignment -name VERILOG_FILE ONCHIP_ROM.v
+set_global_assignment -name BDF_FILE WS.bdf
+set_global_assignment -name BDF_FILE Shifterleft.bdf
+set_global_assignment -name BDF_FILE S.bdf
+set_global_assignment -name BDF_FILE RFC_Mono.bdf
+set_global_assignment -name BDF_FILE register_file_16bx8_final.bdf
+set_global_assignment -name BDF_FILE register_file.bdf
+set_global_assignment -name BDF_FILE register_2.bdf
+set_global_assignment -name BDF_FILE registerfile_16x8.bdf
+set_global_assignment -name BDF_FILE register.bdf
+set_global_assignment -name BDF_FILE REG16.bdf
+set_global_assignment -name BDF_FILE RE.bdf
+set_global_assignment -name BDF_FILE RB.bdf
+set_global_assignment -name BDF_FILE RA.bdf
+set_global_assignment -name BDF_FILE OP.bdf
+set_global_assignment -name BDF_FILE OE.bdf
+set_global_assignment -name BDF_FILE mux4to1.bdf
+set_global_assignment -name BDF_FILE mux41_16bit.bdf
+set_global_assignment -name BDF_FILE mux21_16bit.bdf
+set_global_assignment -name BDF_FILE LU.bdf
+set_global_assignment -name BDF_FILE IE.bdf
+set_global_assignment -name BDF_FILE hex0to7.bdf
+set_global_assignment -name BDF_FILE hex0to3.bdf
+set_global_assignment -name BDF_FILE full_adder.bdf
+set_global_assignment -name BDF_FILE FINAL_DESIGN.bdf
+set_global_assignment -name BDF_FILE demo.bdf
+set_global_assignment -name BDF_FILE Datapath.bdf
+set_global_assignment -name BDF_FILE D.bdf
+set_global_assignment -name BDF_FILE Controller.bdf
+set_global_assignment -name BDF_FILE AU.bdf
+set_global_assignment -name BDF_FILE ALU.bdf
+set_global_assignment -name BDF_FILE adder_16bit.bdf
+set_global_assignment -name BDF_FILE 3to8_en.bdf
+set_global_assignment -name BDF_FILE 2to4_en.bdf
+set_global_assignment -name BDF_FILE 2to4.bdf
+set_global_assignment -name BDF_FILE memory_chip.bdf
+set_global_assignment -name BDF_FILE mem_1x16.bdf
+set_global_assignment -name BDF_FILE mem_32x16.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name BDF_FILE inc1.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE testpc.vwf
+set_global_assignment -name BDF_FILE program_counter.bdf
+set_global_assignment -name BDF_FILE testbidir.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
+set_global_assignment -name BDF_FILE EN_RAM.bdf
+set_global_assignment -name BDF_FILE ShiftOP.bdf
+set_global_assignment -name BDF_FILE OP_Func_def.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform4.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform5.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform6.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE WaveformFINAL.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE ram.vwf
+set_global_assignment -name BDF_FILE DatapathCPU.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE AAAAA.vwf
+set_global_assignment -name BDF_FILE division1x16b.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/altera/13.0sp1/PROJECTS/0final_project/Waveform.vwf"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
